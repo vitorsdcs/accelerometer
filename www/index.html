@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accelerometer</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="utf-8">
+
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Acelerômetro</h1>
+            </header>
+                <div class="btn-group form-group">
+                    <button class="btn btn-primary" id="startButton">Start</button>
+                    <button class="btn btn-default" id="stopButton">Stop</button>
+                </div>
+                
+                <br /><br />
+
+                    <div class="form-group">
+                        <label class="control-label">X:</label>
+                        <small id="spanDirectionX"></small>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Y:</label>
+                        <small id="spanDirectionY"></small>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Z:</label>
+                        <small id="spanDirectionZ"></small>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="cw40">Timestamp:</label>
+                        <small id="spanTimeStamp"></small>
+
+                    </div>
+
+            
+            <footer class="footer">
+                <div>Cordova API Samples</div>
+            </footer>
+        </div>
+    </body>
+</html>
